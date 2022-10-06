@@ -1,14 +1,14 @@
 ---
 author: Oak Ridges Moraine Groundwater Program
+title: Data Sources/References for ORMGP Geocortex Website
 output: html_document
 ---
 
 * TOC
 {:toc}
 
-# Data Sources/References for ORMGP Geocortex Website
 
-## On all Geocortex Theme Maps
+# On all Geocortex Theme Maps
 
 - **ORMGP Boundary** – Incorporates entirety of three Source Water Protection Regions (CTC, Southern Georgian Bay – Lake Simcoe, and Trent Coalition) as well as a Halton focused part of the Hamilton/Halton Source Water Protection Region.
 - **Upper and Single Tier Boundaries** – Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
@@ -23,10 +23,11 @@ output: html_document
 - **Lots and Concessions** - Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
 - **Assessment Parcels** - Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
 
-### General Note:
+**General Note:**
+
 In the following pages, where appropriate/known the date listed in brackets after the legend item indicates when the item was last worked on or updated. Where no date is reported assume that the legend item is day to day continually being worked upon and improved. Unless otherwise stated the legend items have been compiled or prepared by ORMGP staff. Basemap layers or data sources from external agencies (e.g. Province, Federal, partners) are linked to the website where ORMGP obtained the information.
 
-## Location Map
+# Location Map
 
 This map is designed to show the various Location Types that are found in the ORMGP database.
 
@@ -49,7 +50,7 @@ This map is designed to show the various Location Types that are found in the OR
   - **Active** – stations where Permit expiry date is in the future.
   - **Discontinued** – stations where Permit expiry date has passed.
 
-## Boreholes Map
+# Boreholes Map
 
 This map is designed to help users find wells that meet certain requirements.
 
@@ -74,11 +75,11 @@ This map is designed to help users find wells that meet certain requirements.
 - **MECP Record of Well Alteration** – Indicates well locations where MECP indicates that a previously drilled well has been altered (e.g. deepened, new liner, etc.) generally to improve or maintain well performance.
 - **MECP Wells – Need Coordinates Checked** – filtered to show locations where the Location Coordinate Code (as assigned by the MECP) is \>5, thus indicating that there is 300 m or greater in the uncertainty of the assigned well coordinates. The geological interpretations from these wells that are poorly located are not used to construct geological layers. This set of wells is largely shown so that ORMGP staff can readily locate wells and use the WWIS record to more accurately locate the well.
 
-## MECP WWIS Wells Map
+# MECP WWIS Wells Map
 
 This map simply shows only MECP wells. Within the various legend items the MECP wells have been filtered to reflect the jurisdictional geography of the various agencies partnered in the ORMGP.
 
-## Groundwater Quality Map
+# Groundwater Quality Map
 
 This map is designed to show well locations where water quality information has been acquired in the past.
 
@@ -96,7 +97,7 @@ This map is designed to show well locations where water quality information has 
 
 - **Wells Filtered by Interpreted Formation** – the screens from all wells are compared against the geological layers. Where screened interval corresponds in its entirety to a single geological unit then that unit is assigned. In cases where the screen straddles one or more formations then there are a series of rules to assign the screen to the most likely geological unit.
 
-## Groundwater Levels Map
+# Groundwater Levels Map
 
 The map is designed to present all wells where longer term water level monitoring has been undertaken in the past or is currently taking place.
 
@@ -106,7 +107,7 @@ The map is designed to present all wells where longer term water level monitorin
 - **Monitoring Nests (More than One Screen)** – filtered to show all Locations that have more than one screen associated with them. (Note that sometimes the different screens (Intervals) can be tied to one Location in the database and other times they can be tied to different locations situated side by side.
 - **Wells Filtered by Interpreted Formation** – the screens from all wells are compared against the geological layers. Where screened interval corresponds in its entirety to a single geological unit then that unit is assigned. In cases where the screen straddles one or more formations then there are a series of rules to assign the screen to the most likely geological unit.
 
-## Documents Map
+# Documents Map
 
 This map is designed to allow users to access that many documents that are in the ORMGP library.
 
@@ -115,21 +116,21 @@ This map is designed to allow users to access that many documents that are in th
 
 
 
-## Stream Profiles Map
+# Stream Profiles Map
 
 This map is designed to provide cross sections directly tied to the stream segment network so that users can see, for example, places where aquifers are interpreted to intersect the stream bottom (active GW discharge). Note that ORMGP is working to enable this feature in the dynamic cross section tool for all streams in the ORMGP study area.
 
 - **Stream Profile** (2015) – displays all of the available stream profiles/cross-sections.
 
 
-## Numerical Models Map
+# Numerical Models Map
 
 The map is designed to show the boundaries of all of the numerical models held in the ORMGP Model Custodianship initiative. Through partner agencies, the ORMGP has acquired over 80 numerical models from various consultants. The model have been run to completion to ensure that all relevant files are present, and the Models are available through the program with the signing of a model sharing agreement.
 
 - **Numerical Models by Model Code** – all of the models are classified by the code that was used to create the numerical model. The map allows users to see the area and/or boundaries of each model, and by clicking on any model area, obtain the model report.
 
 
-## Geology Map
+# Geology Map
 
 This map is designed to provide access to all of the geologically related mapping that is available in the ORMGP study area.
 
@@ -172,7 +173,7 @@ each lake can be turned on/off individually.
     - DEM 10m – Ground Surface (Dynamically Adjusted (MNRF) – Mike?
     - DEM 10m – Ground Surface (MNRF) – Mike?
 
-## Water Table Map
+# Water Table Map
 
 This map is designed to provide interpolations of the water levels or hydraulic head across the study area, at various depths in the subsurface.
 
@@ -192,7 +193,7 @@ This map is designed to provide interpolations of the water levels or hydraulic 
 - **Vertical Gradient (WT1 minus PS0)** – shows the vertical gradient between the upper water table surface and the deeper potentiometric surface. Note that the blue areas, indicative of upward gradients, are frequently associated with lower lying areas (e.g. river valleys).
 
 
-## Water Budget Map
+# Water Budget Map
 
 This map is designed to provide the results ( **Recharge, Runoff, Evapotranspiration, Precipitation** ) of a recharge – runoff model that was run in 2018 by ORMGP. The model is a distributed model with a grid cell resolution of 250x250 m. The model has 330,000 active cells, covering 20,000 km2 of the ORMGP study area. The model runs a 6-hr time step, (consistent with the 6-hr distributed precipitation input) and provides monthly water budget estimates. The model was run from 2002 to 2018.
 
@@ -217,7 +218,7 @@ Inputs to the model:
   - represented as a single linear reservoir.
 
 
-## Land Use Map
+# Land Use Map
 
 This map is designed to present some of the significant land use designations that can affect land use change proposals across the lands in the ORMGP.
 
@@ -236,7 +237,7 @@ This map is designed to present some of the significant land use designations th
   - **Highly Vulnerable Aquifers**
 
 
-## Surface Water Map
+# Surface Water Map
 
 The map is designed to provide access to all of the Surface Water related information held in the ORMGP.
 
@@ -262,7 +263,7 @@ The map is designed to provide access to all of the Surface Water related inform
 
 
 
-## Hydraulic Properties Map
+# Hydraulic Properties Map
 
 Map is designed to present various hydrogeological properties across the study area.
 
