@@ -28,7 +28,7 @@ Within any theme, users can incorporate items from any other theme map (e.g. bed
 There are some data sets or products that appear on more then one theme map. All themes consist of our regional basemap:
 
 - **ORMGP Boundary** – Incorporates entirety of three Source Water Protection Regions (CTC, Southern Georgian Bay – Lake Simcoe, and Trent Coalition) as well as a Halton focused part of the Hamilton/Halton Source Water Protection Region.
-- **Upper and Single Tier Boundaries** – Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
+- [**Upper and Single Tier Boundaries**](https://geohub.lio.gov.on.ca/)
 - **Lower Tier Boundaries** -Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
 - **Conservation Authority Boundary** -Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
 - **Watershed Boundary** - Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
@@ -39,6 +39,8 @@ There are some data sets or products that appear on more then one theme map. All
 - **Transportation** - Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
 - **Lots and Concessions** - Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
 - **Assessment Parcels** - Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
+
+
 
 **General Note:**
 
@@ -142,7 +144,7 @@ This map is designed to provide cross sections directly tied to the stream segme
 
 # Numerical Models Map
 
-The map is designed to show the boundaries of all of the numerical models held in the ORMGP Model Custodianship initiative. Through partner agencies, the ORMGP has acquired over 80 numerical models from various consultants. The model have been run to completion to ensure that all relevant files are present, and the Models are available through the program with the signing of a model sharing agreement.
+The map is designed to show the boundaries of all of the numerical models held in the ORMGP [Numerical Model Custodianship Program](https://owrc.github.io/snapshots/md/numerical-model-custodianship-program.html). Through partner agencies, the ORMGP has acquired over 80 numerical models from various consultants. The model have been run to completion to ensure that all relevant files are present, and the Models are available through the program with the signing of a model sharing agreement.
 
 - **Numerical Models by Model Code** – all of the models are classified by the code that was used to create the numerical model. The map allows users to see the area and/or boundaries of each model, and by clicking on any model area, obtain the model report.
 
@@ -210,22 +212,26 @@ This map is designed to provide interpolations of the water levels or hydraulic 
 - **Vertical Gradient (WT1 minus PS0)** – shows the vertical gradient between the upper water table surface and the deeper potentiometric surface. Note that the blue areas, indicative of upward gradients, are frequently associated with lower lying areas (e.g. river valleys).
 
 
+
+
 # Water Budget Map
 
-This map is designed to provide the results ( **Recharge, Runoff, Evapotranspiration, Precipitation** ) of a recharge – runoff model that was run in 2018 by ORMGP. The model is a distributed model with a grid cell resolution of 250x250 m. The model has 330,000 active cells, covering 20,000 km2 of the ORMGP study area. The model runs a 6-hr time step, (consistent with the 6-hr distributed precipitation input) and provides monthly water budget estimates. The model was run from 2002 to 2018.
+## (version 0.1)
+
+This map is designed to provide preliminary projections of **Groundwater recharge, Runoff, Evapotranspiration and Precipitation** from a recharge–runoff model that was run in 2018. The model is a distributed model with a grid cell resolution of 250x250 m. The model has 330,000 active cells, covering 20,000 km² of the ORMGP study area. The model runs a 6-hr time step, (consistent with the 6-hr distributed precipitation input) and provides monthly water budget estimates. The model was run from 2002 to 2018.
 
 Inputs to the model:
 
 - Precipitation
-  - The Regional Deterministic Precipitation Analysis based on the Canadian Precipitation Analysis (CaPA-RDPA) from Environment Canada; complete records since 2002; ~10km2 grid, 6-hr totals.
+  - The Regional Deterministic Precipitation Analysis based on the Canadian Precipitation Analysis (CaPA-RDPA) from Environment Canada; complete records since 2002; ~10km² grid, 6-hr totals.
 - Temperature
   - Interpolated hourly temperatures from EC meteorological network, aggregated to 6-hr intervals
 - Solar irradiation
-  - Based on potential solar irradiation theory; model adjusts daylight hours at the cell-scale, according to slope and aspect; cloud-cover fraction dependent on precipitation. occurrence
+  - Based on potential [solar irradiation theory](https://owrc.github.io/info/solarradiation/); model adjusts daylight hours at the cell-scale, according to slope and aspect; cloud-cover fraction dependent on precipitation occurrence.
 - Potential Evapotranspiration
-  - Makkink (1957) method (general form of Priestly-Taylor, dependent on temperature and potential irradiation); computed on a 6-hr basis
+  - [Makkink (1957) method](https://owrc.github.io/info/evaporation/) (general form of Priestly-Taylor, dependent on temperature and potential irradiation); computed on a 6-hr basis
 - Snowmelt
-  - cold content and snow water equivalent energy balance snowpack model; accounts for liquid storage and refreeze, for snowpack metamorphism, and rain on snow melt events.
+  - [cold content and snow water equivalent energy balance snowpack model](https://owrc.github.io/interpolants/modelling/waterbudget/snowmeltCCF.html); accounts for liquid storage and refreeze, for snowpack metamorphism, and rain on snow melt events.
 - Explicit Soil Moisture Accounting scheme
   - SOLRIS mapping used for canopy cover, ground-vegetation cover, and impervious cover;
   - Chapman and Putnam surficial geology mapping used to distribute surficial storage and percolation rates.
@@ -271,11 +277,11 @@ The map is designed to provide access to all of the Surface Water related inform
   - **Active** – stations having data within the past three months
   - **Discontinued** – stations with no climate data in past three months.
 
-- **10 km**** 2 **** Subwatersheds**(2020) –**Mason?**
+- [**10 km² Subwatersheds**](https://owrc.github.io/interpolants/interpolation/subwatershed.html)
 
-- **OHN Waterbody** (2022) – shows the larger lakes and water bodies across the study area. Downloaded from ([https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)).
+- [**OHN Waterbody**](https://geohub.lio.gov.on.ca/) (2022) – shows the larger lakes and water bodies across the study area.
 
-- **Ordered Streams** – **Mason?**
+- [**Ordered Streams**](https://owrc.github.io/interpolants/interpolation/watercourses.html)
 - **Modeled Groundwater Discharge to Streams (L/s/km)** (2021) – shows the GW/SW Interaction results (i.e. estimated or modelled groundwater discharge) from various numerical models held in the ORMGP model custodianship program.
 
 
@@ -287,6 +293,6 @@ Map is designed to present various hydrogeological properties across the study a
 - **Hydraulic Conductivity (m/s)** (2022) – provides the results of various field tests (e.g. slug tests, pumping tests, etc.) undertaken at various wells across the study area. The results presented are often obtained from reports in the ORMGP library.
 - **Specific Capacity (L/min/m)** (2022) – for MECP WWIS records that contain the required information, presents the calculated specific capacity results from the short term testing that drillers undertake upon completion of the drilling of a new well.
 - **Hydraulic Conductivity (m/s) (Bradbury and Rothschild, 1985)** (2022) – presents the estimated hydraulic conductivity calculated using the methodology of Bradbury and Rothschild (1985) from the data acquired from short term testing that drillers undertake upon completion of the drilling of a new well.
-- **Transmissivity (m2/s) (Bradbury and Rothschild, 1985)** – provides the estimated transmissivity for the geological unit in which the well is screened **(Rick?) – should we present the results by geological unit then?**
-- **Transmissivity (m2/s) using screen length** – Rick??
+- **Transmissivity (m²/s) (Bradbury and Rothschild, 1985)** – provides the estimated transmissivity for the geological unit in which the well is screened **(Rick?) – should we present the results by geological unit then?**
+- **Transmissivity (m²/s) using screen length** – Rick??
 - **Hydraulic Conductivity using screen length**  **–** Rick??
