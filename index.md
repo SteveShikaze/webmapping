@@ -5,7 +5,9 @@ subtitle: Data Sources and References for the ORMGP Geocortex Website
 output: html_document
 ---
 
-The ORMGP Geocortex Mapping hub has been divided into various **theme maps** to allow users to quickly hone in on the information they might be seeking. The theme maps group specific related data sets or interpreted products, such as:
+
+
+The ORMGP Geocortex Mapping hub has been divided into various **Theme Maps** to allow users to quickly hone in on the information they might be seeking. For example, the **Documents Theme Map** provides access to the program's library of reports, The **Boreholes Theme Map** focuses on providing access to borehole specific information, and the **Geology Theme Map** provides access to all of the ORMGP geologically related mapping. The Theme Maps group specific related data sets or interpreted products, such as:
 
 
 * TOC
@@ -13,16 +15,17 @@ The ORMGP Geocortex Mapping hub has been divided into various **theme maps** to 
 
 
 
-For example the Documents Theme map provides access to the program’s library of reports, whereas the Boreholes Theme map focuses on providing access to borehole specific information and the Geology Theme map provides access to all of the ORMGP geologically related mapping. Having stated this, there are some data sets or products that appear on more then one theme map.  Also, through the Layer Catalogue, users can incorporate and legend item from one map into a different theme map (e.g. bedrock boreholes can be shown on the Geology Theme map alongside the Bedrock Topography map). 
 
+**The Layer Catalogue/User Customization**
 
-
+Within any theme, users can incorporate items from any other theme map (e.g. bedrock boreholes can be shown on the Geology Theme map alongside the Bedrock Topography map); this is accomplished through the Geocortex "Layer Catalogue". 
 
 
 
 
 
 # Basemap Layers present on all Themes
+There are some data sets or products that appear on more then one theme map. All themes consist of our regional basemap:
 
 - **ORMGP Boundary** – Incorporates entirety of three Source Water Protection Regions (CTC, Southern Georgian Bay – Lake Simcoe, and Trent Coalition) as well as a Halton focused part of the Hamilton/Halton Source Water Protection Region.
 - **Upper and Single Tier Boundaries** – Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
