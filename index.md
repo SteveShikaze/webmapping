@@ -1,6 +1,6 @@
 ---
 author: Oak Ridges Moraine Groundwater Program
-title: Data Sources/References for ORMGP Geocortex Website
+title: Data Sources and References for the ORMGP Geocortex Website
 output: html_document
 ---
 

@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "For general use of our web-mapping platform, please cite it as below."
+authors:
+  - name: Oak Ridges Moraine Groundwater Program
+  - website: oakridgeswater.ca
+title: "Web-mapping Services"
+date-released: 2022-10-06
