@@ -288,11 +288,15 @@ The map is designed to provide access to all of the Surface Water related inform
 
 # Hydraulic Properties Map
 
-Map is designed to present various hydrogeological properties across the study area.
+Map is designed to present estimated hydrogeological properties across the study area, currently Specific Capacity (SC), Hydraulic Conductivity (K) and Transmissivity (T). 
 
-- **Hydraulic Conductivity (m/s)** (2022) – provides the results of various field tests (e.g. slug tests, pumping tests, etc.) undertaken at various wells across the study area. The results presented are often obtained from reports in the ORMGP library.
-- **Specific Capacity (L/min/m)** (2022) – for MECP WWIS records that contain the required information, presents the calculated specific capacity results from the short term testing that drillers undertake upon completion of the drilling of a new well.
-- **Hydraulic Conductivity (m/s) (Bradbury and Rothschild, 1985)** (2022) – presents the estimated hydraulic conductivity calculated using the methodology of Bradbury and Rothschild (1985) from the data acquired from short term testing that drillers undertake upon completion of the drilling of a new well.
-- **Transmissivity (m²/s) (Bradbury and Rothschild, 1985)** – provides the estimated transmissivity for the geological unit in which the well is screened **(Rick?) – should we present the results by geological unit then?**
-- **Transmissivity (m²/s) using screen length** – Rick??
-- **Hydraulic Conductivity using screen length**  **–** Rick??
+**General Note:**
+When you turn on a layer you may notice that locations do not display.  Currently you need to zoom in to see location points. This is due to a software limitation in dealing with many locations and data which we hope to have solved in the future.
+
+
+- **Hydraulic Conductivity (m/s)** – provides the results of various field tests (e.g. slug tests, pumping tests, etc.) undertaken at various wells across the study area. The results presented are obtained from tests conducted by ORMGP partners and also from reports in the ORMGP library.
+- **Specific Capacity (L/min/m)** – for MECP WWIS (Ontario Ministry of Enviroment, Conservation and Parks Water Well Information System) records that contain the required information, presents the calculated specific capacity results from the short term testing that drillers undertake upon completion of the drilling of a new well.
+- **Hydraulic Conductivity (m/s) (Bradbury and Rothschild, 1985)** – presents the estimated hydraulic conductivity calculated from Specific Capacity estimates using the methodology of Bradbury and Rothschild (1985) from the data acquired from short term testing that drillers undertake upon completion of the drilling of a new well. The methodology corrects for partial penetration, well loss and utilizes Formation (aquifer) thickness from the ORMGP 3D geologic interpretation.
+- **Transmissivity (m²/s) (Bradbury and Rothschild, 1985)** – provides the estimated transmissivity calculated from Specific Capacity estimates using the methodology of Bradbury and Rothschild (1985) from the data acquired from short term testing that drillers undertake upon completion of the drilling of a new well. The methodology corrects for partial penetration, well loss and utilizes Formation (aquifer) thickness from the ORMGP 3D geologic unit in which the well is screened.
+- **Transmissivity (m²/s) using screen length** – estimated transmissivity calculated using the methodology of Bradury and Rothschild (1985), similar to above, except the aquifer thickness is taken as the screen length.
+- **Hydraulic Conductivity using screen length**  - estimated hydraulic conductivity calculated using the methodology of Bradury and Rothschild (1985), similar to above, except the aquifer thickness is taken as the screen length.
