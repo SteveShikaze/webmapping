@@ -28,7 +28,7 @@ Within any theme, users can incorporate items from any other theme map (e.g. bed
 There are some data sets or products that appear on more then one theme map. All themes consist of our regional basemap:
 
 - **ORMGP Boundary** – Incorporates entirety of three Source Water Protection Regions (CTC, Southern Georgian Bay – Lake Simcoe, and Trent Coalition) as well as a Halton focused part of the Hamilton/Halton Source Water Protection Region.
-- [**Upper and Single Tier Boundaries**](https://geohub.lio.gov.on.ca/)
+- **Upper and Single Tier Boundaries**[https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
 - **Lower Tier Boundaries** -Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
 - **Conservation Authority Boundary** -Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
 - **Watershed Boundary** - Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
