@@ -1,7 +1,7 @@
 ---
 author: Oak Ridges Moraine Groundwater Program
-title: Geocortex Themes
-subtitle: Data Sources and References for the ORMGP Geocortex Website
+title: Map Themes
+subtitle: Data Sources and References for the ORMGP Website
 output: html_document
 ---
 
