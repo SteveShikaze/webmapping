@@ -46,6 +46,9 @@ There are some data sets or products that appear on more then one theme map. All
 
 In the following pages, where appropriate/known the date listed in brackets after the legend item indicates when the item was last worked on or updated. Where no date is reported assume that the legend item is day to day continually being worked upon and improved. Unless otherwise stated the legend items have been compiled or prepared by ORMGP staff. Basemap layers or data sources from external agencies (e.g. Province, Federal, partners) are linked to the website where ORMGP obtained the information.
 
+
+
+
 # Location Map
 
 This map is designed to show the various Location Types that are found in the ORMGP database.
@@ -68,6 +71,9 @@ This map is designed to show the various Location Types that are found in the OR
 - **Permits To Take Water** – Data downloaded from MECP website. **Updated** : Periodically (approximately every three years) from MECP website ([https://data.ontario.ca/dataset/permit-to-take-water](https://data.ontario.ca/dataset/permit-to-take-water)).
   - **Active** – stations where Permit expiry date is in the future.
   - **Discontinued** – stations where Permit expiry date has passed.
+
+
+
 
 # Boreholes Map
 
@@ -94,9 +100,15 @@ This map is designed to help users find wells that meet certain requirements.
 - **MECP Record of Well Alteration** – Indicates well locations where MECP indicates that a previously drilled well has been altered (e.g. deepened, new liner, etc.) generally to improve or maintain well performance.
 - **MECP Wells – Need Coordinates Checked** – filtered to show locations where the Location Coordinate Code (as assigned by the MECP) is \>5, thus indicating that there is 300 m or greater in the uncertainty of the assigned well coordinates. The geological interpretations from these wells that are poorly located are not used to construct geological layers. This set of wells is largely shown so that ORMGP staff can readily locate wells and use the WWIS record to more accurately locate the well.
 
+
+
+
 # MECP WWIS Wells Map
 
 This map simply shows only MECP wells. Within the various legend items the MECP wells have been filtered to reflect the jurisdictional geography of the various agencies partnered in the ORMGP.
+
+
+
 
 # Groundwater Quality Map
 
@@ -116,6 +128,9 @@ This map is designed to show well locations where water quality information has 
 
 - **Wells Filtered by Interpreted Formation** – the screens from all wells are compared against the geological layers. Where screened interval corresponds in its entirety to a single geological unit then that unit is assigned. In cases where the screen straddles one or more formations then there are a series of rules to assign the screen to the most likely geological unit.
 
+
+
+
 # Groundwater Levels Map
 
 The map is designed to present all wells where longer term water level monitoring has been undertaken in the past or is currently taking place.
@@ -126,12 +141,16 @@ The map is designed to present all wells where longer term water level monitorin
 - **Monitoring Nests (More than One Screen)** – filtered to show all Locations that have more than one screen associated with them. (Note that sometimes the different screens (Intervals) can be tied to one Location in the database and other times they can be tied to different locations situated side by side.
 - **Wells Filtered by Interpreted Formation** – the screens from all wells are compared against the geological layers. Where screened interval corresponds in its entirety to a single geological unit then that unit is assigned. In cases where the screen straddles one or more formations then there are a series of rules to assign the screen to the most likely geological unit.
 
+
+
+
 # Documents Map
 
 This map is designed to allow users to access that many documents that are in the ORMGP library.
 
 - **All Documents** – displays all of the documents that have x/y coordinates that are held in the ORMGP library.
 - **Documents by Scale** – a decision was made to capture the x/y coordinate (points) of each report rather than capture the area that each report covers (area). As a result some of the more regionally focused reports could be difficult to locate on a map, especially if users are zoomed in on a site. Note that, where appropriate, reports that are regional or provincial in scope, have been placed at the location of the office that prepared the report (e.g. Queen's Park, Parliament Hill, MOE office at 401 and Islington, Regional Offices on Highway 25 (Halton), Queen St. (Peel),Yonge St. (York), Rossland Rd. (Durham),City Hall, (Toronto), etc.)
+
 
 
 
@@ -142,11 +161,13 @@ This map is designed to provide cross sections directly tied to the stream segme
 - **Stream Profile** (2015) – displays all of the available stream profiles/cross-sections.
 
 
+
 # Numerical Models Map
 
 The map is designed to show the boundaries of all of the numerical models held in the ORMGP [Numerical Model Custodianship Program](https://owrc.github.io/snapshots/md/numerical-model-custodianship-program.html). Through partner agencies, the ORMGP has acquired over 80 numerical models from various consultants. The model have been run to completion to ensure that all relevant files are present, and the Models are available through the program with the signing of a model sharing agreement.
 
 - **Numerical Models by Model Code** – all of the models are classified by the code that was used to create the numerical model. The map allows users to see the area and/or boundaries of each model, and by clicking on any model area, obtain the model report.
+
 
 
 # Geology Map
@@ -192,6 +213,9 @@ each lake can be turned on/off individually.
     - DEM 10m – Ground Surface (Dynamically Adjusted (MNRF) – Mike?
     - DEM 10m – Ground Surface (MNRF) – Mike?
 
+
+
+
 # Water Table Map
 
 This map is designed to provide interpolations of the water levels or hydraulic head across the study area, at various depths in the subsurface.
@@ -202,13 +226,13 @@ This map is designed to provide interpolations of the water levels or hydraulic 
   - **Deep Wells** – filtered to show wells where the bottom of the well screen is greater than 40 m below ground surface.
   - **Water Bodies** – shows the three main water bodies whose elevations are incorporated into the Water Table surface (Lake Ontario – 75 mASL; Lake Simcoe – 219 mASL; Georgian Bay – 220 mASL)
   - **Streams (Strahler Class \>3)** – displays the streams that have been incorporated into the rendering of the Water Table 1 surface.
-- **Water Table 0 (WT0)** – displays the interpreted Water Table surface, constructed by using water levels from shallow wells only and corrected to Ground Surface (see Water Table MetaData).
-- **Depth To Water Table 0** – shows the interpreted depth WT0; derived by subtracting WT0 from Ground Surface (see Water Table MetaData).
-- **Potential Discharge Areas** – shows those areas where WT) was found to be above ground surface prior to being 'corrected' to Ground Surface minus 0.5m (see Water Table MetaData). These areas might be indicative of where active groundwater discharge might be occurring (e.g. in river valleys and other lower lying areas).
-- **Water Table 1 (WT1)** – displays the interpreted Water Table surface, constructed using water levels from shallow wells, larger streams and in some areas, intermediate depth wells (see Water Table Metadata).
-- **Depth To Water Table 1 (WT1)** - shows the interpreted depth WT1; derived by subtracting WT1 from Ground Surface (see Water Table MetaData). Note that the display can be tailored to show specific areas where the Depth to WT1 is either \>10m; \> 5 m; \<1 m; \< 5m; \< 10m).
-- **Water Table Difference (WT0-WT1)** – shows the difference between the two different Water Table surfaces.
-- **Potentiometric Surface (PSO)** – shows the interpreted deep potentiometric surface using water levels from wells where the bottom of the screen is greater than 40 m below ground level, and corrected to Ground Surface.
+- **Water Table 0 (WT0)** – displays the interpreted Water Table surface, constructed by using water levels from shallow wells only and corrected to Ground Surface. [*[metadata]*](/metadata/surfaces/water_table.html)
+- **Depth To Water Table 0** – shows the interpreted depth WT0; derived by subtracting WT0 from Ground Surface.  [*[metadata]*](/metadata/surfaces/water_table.html)
+- **Potential Discharge Areas** – shows those areas where WT) was found to be above ground surface prior to being 'corrected' to Ground Surface minus 0.5m. These areas might be indicative of where active groundwater discharge might be occurring (e.g. in river valleys and other lower lying areas). [*[metadata]*](/metadata/surfaces/potential_discharge.html)
+- **Water Table 1 (WT1)** – displays the interpreted Water Table surface, constructed using water levels from shallow wells, larger streams and in some areas, intermediate depth wells. [*[metadata]*](/metadata/surfaces/water_table.html)
+- **Depth To Water Table 1 (WT1)** - shows the interpreted depth WT1; derived by subtracting WT1 from Ground Surface. Note that the display can be tailored to show specific areas where the Depth to WT1 is either \>10m; \> 5 m; \<1 m; \< 5m; \< 10m). [*[metadata]*](/metadata/surfaces/water_table.html)
+- **Water Table Difference (WT0-WT1)** – shows the difference between the two different Water Table surfaces. [*[metadata]*](/metadata/surfaces/water_table.html)
+- **Potentiometric Surface (PSO)** – shows the interpreted deep potentiometric surface using water levels from wells where the bottom of the screen is greater than 40 m below ground level, and corrected to Ground Surface. [*[metadata]*](/metadata/surfaces/potentiometric_surface.html)
 - **Vertical Gradient (WT1 minus PS0)** – shows the vertical gradient between the upper water table surface and the deeper potentiometric surface. Note that the blue areas, indicative of upward gradients, are frequently associated with lower lying areas (e.g. river valleys).
 
 
@@ -241,6 +265,8 @@ Inputs to the model:
   - represented as a single linear reservoir.
 
 
+
+
 # Land Use Map
 
 This map is designed to present some of the significant land use designations that can affect land use change proposals across the lands in the ORMGP.
@@ -258,6 +284,7 @@ This map is designed to present some of the significant land use designations th
     - **WHPA Q1**
     - **WHPA Q2**
   - **Highly Vulnerable Aquifers**
+
 
 
 # Surface Water Map
