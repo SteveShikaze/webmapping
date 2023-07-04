@@ -164,7 +164,7 @@ This map is designed to provide cross sections directly tied to the stream segme
 
 # Numerical Models Map
 
-The map is designed to show the boundaries of all of the numerical models held in the ORMGP [Numerical Model Custodianship Program](https://owrc.github.io/snapshots/md/numerical-model-custodianship-program.html). Through partner agencies, the ORMGP has acquired over 80 numerical models from various consultants. The model have been run to completion to ensure that all relevant files are present, and the Models are available through the program with the signing of a model sharing agreement.
+The map is designed to show the boundaries of all of the numerical models held in the ORMGP [Numerical Model Custodianship Program](/snapshots/md/numerical-model-custodianship-program.html). Through partner agencies, the ORMGP has acquired over 80 numerical models from various consultants. The model have been run to completion to ensure that all relevant files are present, and the Models are available through the program with the signing of a model sharing agreement.
 
 - **Numerical Models by Model Code** – all of the models are classified by the code that was used to create the numerical model. The map allows users to see the area and/or boundaries of each model, and by clicking on any model area, obtain the model report.
 
@@ -251,11 +251,11 @@ Inputs to the model:
 - Temperature
   - Interpolated hourly temperatures from EC meteorological network, aggregated to 6-hr intervals
 - Solar irradiation
-  - Based on potential [solar irradiation theory](https://owrc.github.io/info/solarradiation/); model adjusts daylight hours at the cell-scale, according to slope and aspect; cloud-cover fraction dependent on precipitation occurrence.
+  - Based on potential [solar irradiation theory](/info/solarradiation/); model adjusts daylight hours at the cell-scale, according to slope and aspect; cloud-cover fraction dependent on precipitation occurrence.
 - Potential Evapotranspiration
-  - [Makkink (1957) method](https://owrc.github.io/info/evaporation/) (general form of Priestly-Taylor, dependent on temperature and potential irradiation); computed on a 6-hr basis
+  - [Makkink (1957) method](/info/evaporation/) (general form of Priestly-Taylor, dependent on temperature and potential irradiation); computed on a 6-hr basis
 - Snowmelt
-  - [cold content and snow water equivalent energy balance snowpack model](https://owrc.github.io/interpolants/modelling/waterbudget/snowmeltCCF.html); accounts for liquid storage and refreeze, for snowpack metamorphism, and rain on snow melt events.
+  - [cold content and snow water equivalent energy balance snowpack model](/interpolants/modelling/waterbudget/snowmeltCCF.html); accounts for liquid storage and refreeze, for snowpack metamorphism, and rain on snow melt events.
 - Explicit Soil Moisture Accounting scheme
   - SOLRIS mapping used for canopy cover, ground-vegetation cover, and impervious cover;
   - Chapman and Putnam surficial geology mapping used to distribute surficial storage and percolation rates.
@@ -304,13 +304,13 @@ The map is designed to provide access to all of the Surface Water related inform
   - **Active** – stations having data within the past three months
   - **Discontinued** – stations with no climate data in past three months.
 
-- [**10 km² Subwatersheds**](https://owrc.github.io/interpolants/interpolation/subwatershed.html)
+- [**10 km² Subwatersheds**](/interpolants/interpolation/subwatershed.html)
 
 - [**OHN Waterbody**](https://geohub.lio.gov.on.ca/) (2022) – shows the larger lakes and water bodies across the study area.
 
-- [**Ordered Streams**](https://owrc.github.io/interpolants/interpolation/watercourses.html)
+- [**Ordered Streams**](/interpolants/interpolation/watercourses.html)
 
-- [**Modelled Groundwater Discharge to Streams (L/s/km)** (2021)](/md/GWdischargetostreams.html) – shows the GW/SW Interaction results (i.e. estimated or modelled groundwater discharge) from various numerical models held in the ORMGP model custodianship program.
+- [**Modelled Groundwater Discharge to Streams**](/webmapping/md/GWdischargetostreams.html) (2021) – shows the GW/SW Interaction results, i.e. estimated or modelled groundwater discharge to streams (L/s/km), from various numerical models held in the ORMGP model custodianship program.
 
 
 
