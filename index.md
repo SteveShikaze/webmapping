@@ -309,7 +309,8 @@ The map is designed to provide access to all of the Surface Water related inform
 - [**OHN Waterbody**](https://geohub.lio.gov.on.ca/) (2022) – shows the larger lakes and water bodies across the study area.
 
 - [**Ordered Streams**](https://owrc.github.io/interpolants/interpolation/watercourses.html)
-- **Modeled Groundwater Discharge to Streams (L/s/km)** (2021) – shows the GW/SW Interaction results (i.e. estimated or modelled groundwater discharge) from various numerical models held in the ORMGP model custodianship program.
+
+- [**Modelled Groundwater Discharge to Streams (L/s/km)** (2021)](/md/GWdischargetostreams.html) – shows the GW/SW Interaction results (i.e. estimated or modelled groundwater discharge) from various numerical models held in the ORMGP model custodianship program.
 
 
 
