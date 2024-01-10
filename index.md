@@ -28,9 +28,9 @@ Within any theme, users can incorporate items from any other theme map (e.g. bed
 There are some data sets or products that appear on more then one theme map. All themes consist of our regional basemap:
 
 - **ORMGP Boundary** – Incorporates entirety of three Source Water Protection Regions (CTC, Southern Georgian Bay – Lake Simcoe, and Trent Coalition) as well as a Halton focused part of the Hamilton/Halton Source Water Protection Region.
-- **Upper and Single Tier Boundaries**[https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
-- **Lower Tier Boundaries** -Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
-- **Conservation Authority Boundary** -Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
+- **Upper and Single Tier Boundaries** - [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
+- **Lower Tier Boundaries** - Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
+- **Conservation Authority Boundary** - Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
 - **Watershed Boundary** - Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
 - **Subswatershed Boundary** – provided by Conservation Authority partners
 - **ORM Plan Boundary** - Provincial dataset obtained at [https://geohub.lio.gov.on.ca/](https://geohub.lio.gov.on.ca/)
@@ -55,7 +55,7 @@ This map is designed to show the various Location Types that are found in the OR
 
 - **All Boreholes** – Compiled by ORMGP from a variety of sources including: MECP WWIS Records; City of Toronto Geotechnical Database, Ontario Geological Survey Urban Geotechnical Automated Information System; MNR Oil and Gas Wells, Other Consultant/Government BHs from various sources. **Updated** : At least once per year from MECP WWIS ([https://data.ontario.ca/dataset/well-records](https://data.ontario.ca/dataset/well-records)); regularly from BHs input by ORMGP staff; note that BHs found to be in error (e.g. location, geology, imperial vs metric units, etc.) are corrected/fixed on a regular basis as errors are found. Therefore wells found in other databases (e.g. MECP WWIS) might not match what is found on the ORMGP portal.
 - **Groundwater Knowledge/Insight** – Compiled from stories passed down by experienced government and consultant staff. **Updated:** Periodically as new stories are uncovered.
-- **Flowing Water Information Sites (FWIS)** – Contains links to a database currently (2022) held at the University of Waterloo. The database incorporates information (geomorphology, fish, benthic, etc.) acquired using the Ontario Stream Assessment Protocol (OSAP), on stream sites throughout southern Ontario. The database was originally referred to as the HabProgs database and was built as a collaborative effort of many government and research agencies. The database was originally set up out of MNR's offices at Glenora. **Updated:** Contact FEWS custodians.
+- **Flowing Water Information Sites (FWIS)** – Contains links to a database currently (2022) held at the University of Waterloo. The database incorporates information (geomorphology, fish, benthic, etc.) acquired using the Ontario Stream Assessment Protocol (OSAP), on stream sites throughout southern Ontario. The database was originally referred to as the HabProgs database and was built as a collaborative effort of many government and research agencies. The database was originally set up out of MNR's offices at Glenora. **Updated:** Contact FWIS custodians.
 - **Oil and Gas Wells** – data obtained from the Oil, Gas and Salt library of the MNR. **Updated:** Periodically, approximately every five years.
 - **Outcrop** – data obtained from the Geological Survey of Canada in early 2000s and includes GSC and OGS outcrops that were part of the geological work around the Oak Ridges Moraine area undertaken through the 1990s. Updated: No.
 
